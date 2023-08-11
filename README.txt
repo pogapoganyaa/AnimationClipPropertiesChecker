@@ -1,0 +1,16 @@
+AnimationClipPropertiesChecker
+
+AnimationClipに設定されたPath、Type、PropertyNameを確認するためのツールです。
+スクリプトからAnimationClipを設定する場合に、
+clip.SetCurveに必要な引数の一部をコピーしてペーストすることができます。
+
+使い方
+・ProjectWindow上で確認をしたいAnimationClip上で右クリックをし、
+　「PogapogaTools/AnimationClipのProperty名を確認」を選択します。
+・AnimationClipPropertiesCheckerのWindowが立ち上がり、
+　Path、Type、PropertyNameを確認することができます。
+・CopyまたはCボタンを押下することにより、クリップボード上に情報がコピーされます。
+
+利用規約
+・作者は、本ツールの利用によって生じたいかなる請求や損害、その他の義務について一切の責任を負わないものとします。
+・本ツールの再配布を禁止します。
