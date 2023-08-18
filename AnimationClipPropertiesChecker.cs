@@ -125,7 +125,7 @@ namespace PogapogaEditor.RightClick
                             if (GUILayout.Button("C", gUILayoutOptionsButton.ToArray()))
                             {
                                 // コピー処理
-                                string copyText = $"\"{propertyNames[ei]}\"";
+                                string copyText = $"{propertyNames[ei]}";
                                 GUIUtility.systemCopyBuffer = copyText;
                             }
                             EditorGUILayout.TextField($"{propertyNames[ei]}");
